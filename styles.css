@@ -1,0 +1,69 @@
+/* cores #30E3CA nav
+#11999E contrast
+#40514E button
+#E4F9F5 background */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color:#30E3CA !important;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 1em;
+    margin-right: 2em;
+    display: block;
+}
+
+
+.main__section{
+    background-color: #E4F9F5;
+}
+
+.main__section--img{
+    width: 100%;
+    padding: 4em;
+}
+.main__paragraph-slogan{
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    color: #40514E;
+}
+
+.main__paragraph-description{
+    font-weight: 500;
+    color: #40514E;
+    text-align: center;
+}
+.main__button--whatsapp{
+   display: flex;
+   justify-content: end;
+   margin-right: 1em;
+}
+
+footer{
+    text-align: center;
+    background-color: #30E3CA;
+    padding: 2em;
+    line-height: auto;
+}
